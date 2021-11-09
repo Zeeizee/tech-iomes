@@ -1,14 +1,12 @@
 /* default css start */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   width: 100%;
@@ -33,6 +31,17 @@ body {
   /* background: rgba(213, 180, 180, 0.6); */
   padding: 0px 30px;
 }
+.title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 45px;
+}
+.title-text {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 1rem; 
+  padding:0px 20px 0px 0px
+}
 
 a.site-logo {
   font-size: 26px;
@@ -53,11 +62,13 @@ a.site-logo img {
   display: flex;
 }
 .site-navbar ul li a {
-  color: rgb(60, 59, 59);
-  padding: 20px;
+  color: #6a8288;
+  padding: 20px 10px;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
 }
 .site-navbar ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
@@ -68,7 +79,7 @@ a.site-logo img {
 .nav-toggler {
   border: 3px solid #fff;
   padding: 5px;
-  background-color: rosybrown;
+  background-color: transparent;
   cursor: pointer;
   height: 39px;
   display: none;
@@ -78,7 +89,7 @@ a.site-logo img {
 .nav-toggler span:after {
   width: 28px;
   height: 3px;
-  background-color: #fff;
+  background-color: rgb(106, 105, 105);
   display: block;
   transition: 0.3s;
 }
@@ -103,10 +114,13 @@ a.site-logo img {
 
 /* intro-area css start */
 .intro-area {
-  height: calc(100vh - 61px);
-  display: flex;
-  align-items: center;
-  text-align: center;
+  min-height: calc(90vh - 61px);
+  height: auto;
+  background-image: url("../images/banner.png");
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
+
   color: #fff;
 }
 .intro-area h2 {
@@ -140,8 +154,9 @@ a.site-logo img {
     top: 60px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-top: 1px solid rgb(255, 255, 255);
-    background-color: rgba(253, 253, 253, 0.75);
+    background-color: rgb(253, 253, 253);
     max-height: 0;
     overflow: hidden;
     transition: 0.3s;
