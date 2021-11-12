@@ -39,8 +39,8 @@ body {
 .title-text {
   color: rgb(255, 255, 255);
   font-weight: 500;
-  font-size: 1rem; 
-  padding:0px 20px 0px 0px
+  font-size: 1rem;
+  padding: 0px 20px 0px 0px;
 }
 
 a.site-logo {
@@ -68,10 +68,10 @@ a.site-logo img {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .site-navbar ul li a:hover {
-  background: rgba(255, 255, 255, 0.1);
+  color: #006375;
 }
 /* navbar regular css end */
 
