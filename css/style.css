@@ -38,6 +38,9 @@
 .socialIcons:hover {
   color: #006375;
 }
+.infoText {
+  font-size: 1rem;
+}
 /* table start*/
 table {
   margin: 0px;
@@ -71,6 +74,29 @@ table th {
 .getText {
   font-size: 2rem;
   color: gray;
+}
+
+@media screen and (max-width: 1009px) {
+  .infoText {
+    font-size: 0.9rem;
+  }
+  .getText {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 928px) {
+  .infoText {
+    font-size: 0.8rem;
+  }
+  .getText {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 846px) {
+  .infoText {
+    font-size: 0.7rem;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -119,10 +145,6 @@ table th {
 
   table td:last-child {
     border-bottom: 0;
-  }
-  .getText {
-    font-size: 1.5rem;
-    color: gray;
   }
 }
 /* table end*/

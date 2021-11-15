@@ -242,27 +242,30 @@
       </section>
 
       <!-- Contact us  -->
-      <div class="container  py-4 "  id="GetInTouch">
+      <div class="container  py-4 "  id="GetInTouch" style="width:80%">
 
-        <div class="flex-md-row d-flex justify-content-center align-items-center flex-column w-100">
-          <div class="contact-us">
-            <div class="w-100 d-flex justify-content-center justify-content-md-start py-2 px-2">
-              <span style="font-size: 1.5rem; color:gray;">CONTACT US</span>
+       <div class=" mx-auto" >
+ <div class="flex-md-row d-flex py-5 justify-content-center align-items-center flex-column w-100">
+          <div class="col-12 col-md-5 contact-us d-flex justify-content-center " >
+            <div>
+              <div class="w-100 d-flex justify-content-center justify-content-md-start py-2 px-2">
+                <span style="font-size: 1.5rem; color:gray;">CONTACT US</span>
+              </div>
+              
+              <ul style="list-style-type:none">
+                <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-map-marker-alt"></i><span class="infoText"> Hong Kong | Shanghai</span> </li>
+                <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-envelope"></i><span class="infoText">info@myindustrialoperations.com</span> </li>
+                <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-phone"></i><span class="infoText">+852 8193 2369</span> </li>
+               
+              </ul>
             </div>
-            
-            <ul style="list-style-type:none">
-              <li><i style="color:#006375;font-size: 20px; margin:5px 5px 5px 0px " class="fas fa-map-marker-alt"></i><span > Hong Kong | Shanghai</span> </li>
-              <li><i style="color:#006375;font-size: 20px; margin:5px 5px 5px 0px " class="fas fa-envelope"></i><span >info@myindustrialoperations.com</span> </li>
-              <li><i style="color:#006375;font-size: 20px; margin:5px 5px 5px 0px " class="fas fa-phone"></i><span >+852 8193 2369</span> </li>
-             
-            </ul>
           </div>
-          <div class="OROR mx-5 px-5 d-flex justify-content-center align-items-center ">
+          <div class="col-12 col-md-2 OROR d-flex justify-content-center align-items-center ">
             <div class="ml-2"style="width:1px; height: 150px; background-color:gray;opacity: 0.7;"></div>
             <div style="position: absolute; font-size: 4rem;color:gray"><span>OR</span></div>
           </div>
-          <div class="getintouch d-flex justify-content-center align-items-center flex-column">
-            <div class="getintouch-content w-50">
+          <div class="col-12 col-md-5 getintouch d-flex justify-content-center align-items-center flex-column">
+            <div class="getintouch-content w-75">
                 <div class="d-flex justify-content-center justify-content-md-start ">
                   <span class="getText" >GET IN TOUCH</span>
                 </div>
@@ -271,42 +274,44 @@
                 </div>
             </div>
             <div class="getintouch-btn">
-                <button class="border-none"style="padding: 15px 50px; background-color:#006375; font-size: 1.2rem;color:white; border-radius: 10px; border:none;">GET IN TOUCH</button>
+                <button class="border-none btn-get"style="padding: 15px 50px; background-color:#006375; font-size: 1.2rem;color:white; border-radius: 10px; border:none;">GET IN TOUCH</button>
             </div>
 
 
 
             <!-- contact us -->
               
-        <div class="contactus-form border bg-light d-none  " style="position: absolute; z-index: 10000000000; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+        <div class="contactus-form get-in-touch-cotact-form border bg-light  d-none " style="position: absolute; z-index: 10000000000; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
           <div class="row  bg-light m-5">
 
             <div class=" d-flex justify-content-center align-items-center">
               <div class="contact-form">
+              <form action="#" method="post">
                 <div class="form-group">
                   <label class="control-label " for="fname">Enter Your Name:</label>
                   <div class="">          
-                  <input type="text" class="form-control" id="fname" placeholder="Enter Your Name" name="fname">
+                  <input type="text" class="form-control username"  id="fname" placeholder="Enter Your Name" name="fname">
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="control-label" for="email">Email:</label>
                   <div class="">
-                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  <input type="email" class="form-control useremail" id="email" placeholder="Enter email" name="email">
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="control-label" for="comment">Your Message:</label>
                   <div class="">
-                  <textarea class="form-control" rows="5" id="comment" placeholder="Enter your message here"></textarea>
+                  <textarea class="form-control usermsg" rows="5" id="comment" placeholder="Enter your message here"></textarea>
                   </div>
                 </div>
                 <div class="form-group my-3">        
                   <div class="text-center">
                   <button type="submit" class="btn btn-default" style="padding: 5px 20px; background-color:#006375; font-size: 0.9rem;color:white; border-radius: 10px; border:none;">Submit</button>
-                  <button type="submit" class="btn btn-default" style="padding: 5px 20px; background-color:#006375; font-size: 0.9rem;color:white; border-radius: 10px; border:none;">Discard</button>
+                  <button type="button" class="btn btn-default cancel" style="padding: 5px 20px; background-color:#006375; font-size: 0.9rem;color:white; border-radius: 10px; border:none;">Discard</button>
                   </div>
                 </div>
+              </form>
               </div>
             </div>
           </div>
@@ -314,6 +319,7 @@
             <!-- contact us -->
           </div>
         </div>
+       </div>
 
 
 
@@ -325,19 +331,19 @@
         <div class="container">
             <div class="row py-3 align-items-center">
                 <div>
-                  <div class="w-100 web-logo px-sm-5 mx-sm-5">
+                  <div class="web-logo px-sm-5 mx-sm-5">
                     <a href="#home" class="site-logo"><img src="https://www.myindustrialoperations.com/wp-content/uploads/2020/12/1_Primary_logo_on_transparent_1024-e1608196325433.png" alt=""></a>
                     <p style="color: #757575;">WAY TO YOUR DIGITAL FACTORY TRANSFORMATION <br>JOURNEY</p>
                     
                     <span>
-                      <a href=""><i class="socialIcons fab fa-linkedin"></i></a>
+                      <a href="https://www.linkedin.com/company/iomes-group/"><i class="socialIcons fab fa-linkedin"></i></a>
                     </span>
-                    <span>
+                    <!-- <span>
                       <a href=""><i class="socialIcons fab fa-twitter-square"></i></a>
                     </span>
                     <span>
                       <a href=""><i class="socialIcons fab fa-facebook-square"></i></a>
-                    </span>
+                    </span> -->
                   </div>
                 </div>
             </div>
@@ -356,6 +362,9 @@
         </div>
     </div>
 
+    <!-- smtp -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/script.js"> </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
