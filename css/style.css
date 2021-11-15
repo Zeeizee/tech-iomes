@@ -27,7 +27,18 @@
 .services-list li {
   list-style-type: none;
 }
-
+.mediabtn {
+  font-weight: 600;
+  color: #ababab;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.mediabtn:hover {
+  font-weight: 600;
+  color: #006375;
+  font-size: 1rem;
+  cursor: pointer;
+}
 
 .refHeading .refTitle {
   font-size: 2rem;

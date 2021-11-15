@@ -53,3 +53,26 @@ const emailsend=()=>{
         console.log(err)
     })
 }
+
+          var lessevents=document.querySelector('.less')
+          var moreevents=document.querySelector('.more')
+          var btnLess=document.querySelector('.btnLess')
+          var btnMore=document.querySelector('.btnMore')
+
+          var showMore=(ele)=>{
+            ele.classList.add('d-none')
+            btnLess.classList.remove('d-none')
+            lessevents.classList.add('d-none')
+            moreevents.classList.remove('d-none');
+            
+            
+          }
+          var showLess=(ele)=>{
+            ele.classList.add('d-none');
+            btnMore.classList.remove('d-none');
+            lessevents.classList.remove('d-none');
+            moreevents.classList.add('d-none');
+
+          }
+
+     
