@@ -50,7 +50,8 @@
   color: #006375;
 }
 .infoText {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  color: #808080;
 }
 /* table start*/
 table {

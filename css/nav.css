@@ -114,7 +114,7 @@ a.site-logo img {
 
 /* intro-area css start */
 .intro-area {
-  min-height: calc(90vh - 61px);
+  min-height: calc(50vh - 61px);
   height: auto;
   background-image: url("../images/banner.png");
   background-position: center center;
@@ -161,6 +161,10 @@ a.site-logo img {
     overflow: hidden;
     transition: 0.3s;
   }
+  .title {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
   .title-text {
     color: rgb(255, 255, 255);
     font-weight: 500;
@@ -195,6 +199,10 @@ a.site-logo img {
   a.site-logo img {
     height: 25px;
     /* background: rgba(89, 40, 40, 0.6); */
+  }
+  .title {
+    font-size: 1.5rem;
+    line-height: 1;
   }
   .title-text {
     color: rgb(255, 255, 255);
