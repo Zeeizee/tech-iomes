@@ -53,6 +53,9 @@
   font-size: 0.9rem;
   color: #808080;
 }
+.theWayText {
+  font-size: 1rem;
+}
 /* table start*/
 table {
   margin: 0px;
@@ -106,6 +109,9 @@ table th {
   }
   .getText {
     font-size: 1.6rem;
+  }
+  .theWayText {
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 846px) {
@@ -168,3 +174,18 @@ table th {
   }
 }
 /* table end*/
+@media screen and (max-width: 536px) {
+  .theWayText {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 474px) {
+  .theWayText {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .theWayText {
+    font-size: 0.5rem;
+  }
+}
