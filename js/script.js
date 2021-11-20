@@ -61,7 +61,7 @@ const emailsend=()=>{
         To : 'info@tech-iomes.io',
         From : "info@tech-iomes.io",
         Subject : `GET IN TOUCH (IOMES)`,
-        Body : `${txtusername.value} is trying to connect you through Get In Touch from this <b>Email: ${txtemail.value.trim()}</b> <br><br> ${txtmsg.value.trim()}  `
+        Body : `<b>${txtusername.value}</b> is trying to connect you through Get In Touch from this <b>Email: ${txtemail.value.trim()}</b> <br><br> ${txtmsg.value.trim()}  `
     }).then(
         
     ).catch(err=>{
@@ -90,4 +90,4 @@ const emailsend=()=>{
 
           }
 
-     
+ 
