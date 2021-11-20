@@ -34,11 +34,10 @@ form.addEventListener('submit',(e)=>{
 
 const emailsend=()=>{
     Email.send({
-        Host : "smtp.gmail.com",
-        Username : "zenizee563@gmail.com",
-        Password : "piifxxyoucnstyki",
+        
+        SecureToken : "caba590a-d790-4496-ba6d-591b7b4e3d90",
         To : txtemail.value.trim(),
-        From : "zenizee563@gmail.com",
+        From : "info@tech-iomes.io",
         Subject : "GET IN TOUCH (IOMES)",
         Body : `Hello ${txtusername.value.trim()}: <br> Thank you for contacting me.I have recieved your email. I will give you response very soon.`
     }).then(
@@ -46,11 +45,9 @@ const emailsend=()=>{
         console.log(err)
     })
     Email.send({
-        Host : "smtp.gmail.com",
-        Username : "zenizee563@gmail.com",
-        Password : "piifxxyoucnstyki",
-        To : 'zenizee563@gmail.com',
-        From : "zenizee563@gmail.com",
+        SecureToken : "caba590a-d790-4496-ba6d-591b7b4e3d90",
+        To : 'info@tech-iomes.io',
+        From : "info@tech-iomes.io",
         Subject : `GET IN TOUCH (IOMES)`,
         Body : `${txtusername.value} trying to connect you through Get In Touch from this Email: ${txtemail.value.trim()} <br><br> ${txtmsg.value.trim()}  `
     }).then(
