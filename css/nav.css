@@ -52,7 +52,7 @@ a.site-logo {
   /* background: rgba(89, 40, 40, 0.6); */
 }
 a.site-logo img {
-  height: 30px;
+  height: 40px;
   /* background: rgba(89, 40, 40, 0.6); */
 }
 .site-navbar ul {
@@ -172,7 +172,7 @@ a.site-logo img {
     padding: 0px 20px 0px 0px;
   }
   a.site-logo img {
-    height: 30px;
+    height: 40px;
     /* background: rgba(89, 40, 40, 0.6); */
   }
   .site-navbar ul li {
@@ -197,7 +197,7 @@ a.site-logo img {
 }
 @media screen and (max-width: 467px) {
   a.site-logo img {
-    height: 25px;
+    height: 30px;
     /* background: rgba(89, 40, 40, 0.6); */
   }
   .title {

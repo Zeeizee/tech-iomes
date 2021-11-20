@@ -12,6 +12,12 @@ btnGetInTouch.addEventListener('click',()=>{
     
 
 })
+var openGetInTouch=()=>{
+    
+    formcontainer.classList.remove('d-none')
+    txtusername.focus();
+                
+}
 btncancel.addEventListener('click', (e)=>{
     e.preventDefault()
     form.reset()

@@ -44,10 +44,20 @@
 }
 .socialIcons {
   color: #ababab;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .socialIcons:hover {
   color: #006375;
+}
+.pair {
+  width: 27px;
+  height: 27px;
+  background-color: #ababab;
+  margin-top: 2px;
+  border-radius: 3px;
+}
+.pair:hover {
+  background-color: #006375;
 }
 .infoText {
   font-size: 0.9rem;
@@ -113,9 +123,15 @@ table th {
   .theWayText {
     font-size: 0.8rem;
   }
+  .downText {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 846px) {
   .infoText {
+    font-size: 0.7rem;
+  }
+  .downText {
     font-size: 0.7rem;
   }
 }
@@ -178,14 +194,23 @@ table th {
   .theWayText {
     font-size: 0.7rem;
   }
+  .downText {
+    font-size: 0.7rem;
+  }
 }
 @media screen and (max-width: 474px) {
   .theWayText {
     font-size: 0.6rem;
   }
+  .downText {
+    font-size: 0.6rem;
+  }
 }
 @media screen and (max-width: 414px) {
   .theWayText {
+    font-size: 0.5rem;
+  }
+  .downText {
     font-size: 0.5rem;
   }
 }
