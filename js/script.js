@@ -22,6 +22,7 @@ btncancel.addEventListener('click', (e)=>{
     e.preventDefault()
     form.reset()
     formcontainer.classList.add('d-none')
+    alert("Email Send Successfully.You Will Receive Confirmation Email As They Recieve Your Email")
 })
 
 form.addEventListener('submit',(e)=>{
@@ -36,7 +37,9 @@ form.addEventListener('submit',(e)=>{
     }
     emailsend();
     form.reset();
+    
     formcontainer.classList.add('d-none')
+    
 })
 
 
@@ -49,6 +52,7 @@ const emailsend=()=>{
         Subject : "GET IN TOUCH (IOMES)",
         Body : `Hello <b> ${txtusername.value.trim()}</b>: <br> Thank you for contacting us.We have recieved your email. We will give you response very soon.`
     }).then(
+    
     ).catch(err=>{
         console.log(err)
     })
@@ -59,7 +63,7 @@ const emailsend=()=>{
         Subject : `GET IN TOUCH (IOMES)`,
         Body : `${txtusername.value} is trying to connect you through Get In Touch from this <b>Email: ${txtemail.value.trim()}</b> <br><br> ${txtmsg.value.trim()}  `
     }).then(
-      
+        
     ).catch(err=>{
         console.log(err)
     })
