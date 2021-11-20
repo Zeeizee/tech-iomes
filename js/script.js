@@ -27,11 +27,11 @@ btncancel.addEventListener('click', (e)=>{
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     if(txtusername.value.trim()===""){
-        alert("Please Fill All GitInTouch Input Fields")
+        alert("Please Fill All GetInTouch Input Fields")
         return;
     }
     if(txtemail.value.trim()===""){
-        alert("Please Fill All GitInTouch Input Fields")
+        alert("Please Fill All GetInTouch Input Fields")
         return;
     }
     emailsend();
