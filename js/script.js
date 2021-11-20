@@ -22,7 +22,7 @@ btncancel.addEventListener('click', (e)=>{
     e.preventDefault()
     form.reset()
     formcontainer.classList.add('d-none')
-    alert("Email Send Successfully.You Will Receive Confirmation Email As They Recieve Your Email")
+   
 })
 
 form.addEventListener('submit',(e)=>{
@@ -39,7 +39,7 @@ form.addEventListener('submit',(e)=>{
     form.reset();
     
     formcontainer.classList.add('d-none')
-    
+    alert("Email Send Successfully.You Will Receive Confirmation Email As They Recieve Your Email")
 })
 
 
@@ -90,4 +90,4 @@ const emailsend=()=>{
 
           }
 
- 
+     
