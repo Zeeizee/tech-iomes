@@ -26,6 +26,14 @@ btncancel.addEventListener('click', (e)=>{
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
+    if(txtusername.value.trim()===""){
+        alert("Please Fill All GitInTouch Input Fields")
+        return;
+    }
+    if(txtemail.value.trim()===""){
+        alert("Please Fill All GitInTouch Input Fields")
+        return;
+    }
     emailsend();
     form.reset();
     formcontainer.classList.add('d-none')
@@ -39,7 +47,7 @@ const emailsend=()=>{
         To : txtemail.value.trim(),
         From : "info@tech-iomes.io",
         Subject : "GET IN TOUCH (IOMES)",
-        Body : `Hello ${txtusername.value.trim()}: <br> Thank you for contacting me.I have recieved your email. I will give you response very soon.`
+        Body : `Hello <b> ${txtusername.value.trim()}</b>: <br> Thank you for contacting us.We have recieved your email. We will give you response very soon.`
     }).then(
     ).catch(err=>{
         console.log(err)
@@ -49,7 +57,7 @@ const emailsend=()=>{
         To : 'info@tech-iomes.io',
         From : "info@tech-iomes.io",
         Subject : `GET IN TOUCH (IOMES)`,
-        Body : `${txtusername.value} trying to connect you through Get In Touch from this Email: ${txtemail.value.trim()} <br><br> ${txtmsg.value.trim()}  `
+        Body : `${txtusername.value} is trying to connect you through Get In Touch from this <b>Email: ${txtemail.value.trim()}</b> <br><br> ${txtmsg.value.trim()}  `
     }).then(
       
     ).catch(err=>{
