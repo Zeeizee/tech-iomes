@@ -36,14 +36,13 @@ form.addEventListener('submit',(e)=>{
         return;
     }
     emailsend();
-    form.reset();
-    
+    form.reset();    
     formcontainer.classList.add('d-none')
-    alert("Email Send Successfully.You Will Receive Confirmation Email As They Recieve Your Email")
+    setTimeout(function(){ alert("Your Email Sent Successfully. You Will Get Email Confirmation."); }, 2000);
 })
 
 
-const emailsend=()=>{
+const  emailsend=()=>{
     Email.send({
         
         SecureToken : "caba590a-d790-4496-ba6d-591b7b4e3d90",
