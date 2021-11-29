@@ -50,11 +50,23 @@
   color: #006375;
 }
 .pair {
-  width: 27px;
-  height: 27px;
-  background-color: #ababab;
+  width: 28px;
+  height: 28px;
+  background-color: rgb(171, 171, 171);
   margin-top: 2px;
   border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pair img {
+  width: 23px;
+  height: 21px;
+
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .pair:hover {
   background-color: #006375;
