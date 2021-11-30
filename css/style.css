@@ -58,6 +58,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .pair img {
   width: 23px;

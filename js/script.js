@@ -49,7 +49,7 @@ const  emailsend=()=>{
         To : txtemail.value.trim(),
         From : "info@tech-iomes.io",
         Subject : "GET IN TOUCH (IOMES)",
-        Body : `Hello <b> ${txtusername.value.trim()}</b>: <br> Thank you for contacting us.<br>We have recieved your email.<br>We will reply you very soon.<br><br> <b>Best Regards:</b><br><span>IMOES Group</span>`
+        Body : `Hello <b> ${txtusername.value.trim()}</b>: <br> Thank you for contacting us.<br>We have recieved your email.<br>We will reply you very soon.<br><br> <b>Best Regards:</b><br><span>IOMES Group</span>`
     }).then(
     
     ).catch(err=>{
