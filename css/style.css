@@ -117,6 +117,9 @@ table th {
   font-size: 2rem;
   color: gray;
 }
+.get-in-touch-cotact-form{
+  width:500px
+}
 
 @media screen and (max-width: 1009px) {
   .infoText {
@@ -210,6 +213,9 @@ table th {
   .downText {
     font-size: 0.7rem;
   }
+  .get-in-touch-cotact-form{
+    width:400px
+  }
 }
 @media screen and (max-width: 474px) {
   .theWayText {
@@ -217,6 +223,9 @@ table th {
   }
   .downText {
     font-size: 0.6rem;
+  }
+  .get-in-touch-cotact-form{
+    width:350px
   }
 }
 @media screen and (max-width: 414px) {

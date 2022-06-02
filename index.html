@@ -13,6 +13,18 @@
 
     <title>TECH-IOMES</title>
     <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Rbd_ANLYqwIBmeWUH");
+   })();
+</script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z75PZGQ4LY"></script>
     <script>
@@ -436,7 +448,7 @@
               
               <ul style="list-style-type:none">
                 <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-map-marker-alt"></i><span class="infoText"> Hong Kong | Shanghai</span> </li>
-                <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-envelope"></i><span class="infoText">info@myindustrialoperations.com</span> </li>
+                <!-- <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-envelope"></i><span class="infoText">info@myindustrialoperations.com</span> </li> -->
                 <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-phone"></i><span class="infoText">+852 8193 2369</span> </li>
                
               </ul>
@@ -463,10 +475,10 @@
 
             <!-- contact us -->
               
-        <div class="contactus-form get-in-touch-cotact-form border bg-light  d-none  " style="position: absolute; z-index: 10000000000; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 5px;">
+        <div class="contactus-form get-in-touch-cotact-form border bg-light  d-none  " style=" position: absolute; z-index: 10000000000; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 5px;">
           <div class="w-100 px-2 py-2 text-white fw-bold" style="background:#006375;border-radius: 5px 5px 0px 0px;">GET IN TOUCH
           </div>
-          <div class="row  bg-light mx-5 my-2">
+          <div class="row  bg-light mx-3 my-2">
             
             <div class=" d-flex justify-content-center align-items-center">
               <div class="contact-form">
@@ -489,6 +501,19 @@
                   <textarea class="form-control usermsg" rows="5" id="comment" placeholder="Enter your message here"></textarea>
                   </div>
                 </div>
+                
+                <div class="form-group my-2 d-flex ">
+                  <div><input type="checkbox" name="detailscheck" id="detailscheck"  style="margin-top: 8px;"></div>
+                  <div class="p-0 mx-2 my-0 "><span style="font-size:12px" >    Hereby, I agree to provide my personal data above solely
+                    for the scope of receiving the information requested and for
+                    future professional communication by IOMES Group (Shanghai) Business Consulting.</span></div>
+
+                </div>
+                <div class="form-group my-2 ">
+                  <div class="g-recaptcha "  data-sitekey="6LfPLi4gAAAAACy3Yuu9ucTrhNT31EGEp3ZwRzRR"></div>
+                </div>
+
+
                 <div class="form-group my-3">        
                   <div class="text-center">
                   <button type="submit" class="btn btn-default" style="padding: 5px 20px; background-color:#006375; font-size: 0.9rem;color:white; border-radius: 10px; border:none;">Submit</button>
